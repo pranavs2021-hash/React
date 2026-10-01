@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding:0;
+   box-sizing: border-box;
+ }
+ 
+ html,body{
+  background-color: #000000;
+  color: aqua;
+  height: 100vh;
+  padding: 10px;
+ }
+ .card{
+  width: 275px;
+  height: 320px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 9px;
+  
+
+ }
+ .card .top{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 18px;
+  margin-bottom: 15px;
+  
+ }
+
+ .top img{
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #dadada ;
+  
+
+ }
+ 
+.top button{
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: #dadada;
+  font-size: 11px;
+  gap: 10px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #e0dbdb;
+  padding-top: 15px;
+  margin-top: 0px;
+}
+.centre h3{
+  font-size: 18px;
+  font-weight: 500;  
+}
+.centre span{
+  font-size: 10px;
+  color: #b1b1b1;
+
+}
+
+.centre h2{
+  font-size: 18px;
+}
+
+.centre .tag{
+  display: flex;
+  gap:10px;
+  margin-top:8px;
+}
+.centre .tag h4{
+  background-color: #b1b1b1;
+  padding: 3px 6px;
+  border-radius: 9px;
+}
+ .bottom button{
+  background-color: #000000;
+  color: #dadada;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+ }
+ .parent{
+  display: flex;
+  gap:23px;
+  flex-wrap: wrap;
+ }
