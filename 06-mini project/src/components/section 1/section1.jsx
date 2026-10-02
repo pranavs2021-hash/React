@@ -1,11 +1,16 @@
 import React from 'react'
 import Navbar from './navbar'
+import Page1contents from './Page1contents'
+
 
 const section1 = () => {
   return (
-    <div className='bg-red-300 h-screen w-full '>
+    <div className=' h-screen w-full flex flex-col justify-between p-5'>
 
         <Navbar/>
+        <Page1contents/>
+        
+
     </div>
   )
 }
