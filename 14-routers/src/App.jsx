@@ -7,7 +7,8 @@ import Navbar from './components/navbar';
 const App = () => {
   return (
     <div className="relative min-h-screen bg-[#483C32]">
-      <Navbar/>
+    <Navbar/>
+
     
       <Routes>
         <Route path='/' element={<Home />} />
