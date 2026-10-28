@@ -17,7 +17,10 @@ const Navbar = () => {
 
 <Link to="/Contact">Contact</Link>
 <Link to="/Products">Product</Link>
-<Link to="/Products/Men">men</Link>
+
+<Link to="/Courses">Courses</Link>
+
+
         </div>
 
         {/* Right content */}
