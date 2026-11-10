@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+.scrollit::-webkit-scrollbar {
+  display: none;
+}
+.scrollit {
+  scrollbar-width: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background:#111;
+
+}
